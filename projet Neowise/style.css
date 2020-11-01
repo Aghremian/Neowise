@@ -1,0 +1,176 @@
+* {
+box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+}
+.flex-container {
+    
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    
+
+    padding: 0px;
+    border: 100% solid #87CEEB;  
+}
+
+.flex-container>div {
+    width: 100%;
+    height: 100%;
+
+    
+    padding: 0px;
+    font-size: 2em;
+}
+ 
+body {
+    background : url("img/background.png") ;
+    background-color: #19192e; 
+}
+#blocks {
+  width: 45% ;
+ 
+  
+  background-color: rgba(0, 0, 0, 0.4); 
+ 
+   
+}
+
+h1 {
+   color: white; 
+   opacity: 1;
+   display: flex;
+   justify-content: center;
+   font-family: 'Secular One', sans-serif;
+
+}
+#blocs  {
+  background-color: black;  
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: unset ;
+  background-color: rgba(0, 0, 0, 0.0); 
+}
+p {
+   color: white; 
+margin-right: 95px;
+margin-left: 40px;
+  font-size: 22px;
+  font-family: 'Roboto' , sans-serif;
+   
+}
+#bloc {
+  
+ position: absolute;
+ top: 60%;
+ 
+}
+#wiki {
+  color: cyan;  
+  text-decoration: underline;
+ position: relative;
+  font-size: 25px;
+top: 20px;
+left:  35px;
+
+}
+#button {
+    background-color: brown;
+
+}
+.commencer {
+  
+    color: black ;
+   border-radius: 300px; 
+   position: absolute;
+   right: 170px; 
+   display:block;
+width:150px;
+line-height:50px;
+text-align:center;
+
+background-color: transparent;
+color:white;
+text-decoration:none;
+
+}
+#soleil {
+  background-image: url(img/sun.png);
+background-size: cover;
+ height: 70px;
+ width: 70px; 
+ position: absolute;
+ top: 39%;
+ left: 31%;
+}
+
+#ven{
+background-image: url(img/venus.png);
+background-size: cover;
+width: 20px;
+height: 20px;
+transform: translate(-50%, -50%);
+}
+#merc{
+  background-image: url(img/mercury.png);
+  background-size: cover;
+  width:30px;
+  height: 30px; 
+  transform: translate(-50%, -50%); 
+}
+#terre {
+  background-image: url(img/earth.png);
+background-size: cover;
+width: 50px;
+height: 50px;
+position: absolute;
+transform: translate(-50%, -50%);
+}
+#mars { 
+  background-image: url(img/mars.png);
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  transform: translate(-50%, -50%);
+}
+#jupiter {
+  background-image: url(img/jupiter.png);
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  transform: translate(-50%, -50%);
+}
+#saturn {
+  background-image: url(img/saturn.png);
+  background-size: cover;
+  width: 72px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+}
+#uranus {
+  background-image: url(img/uranus.png);
+  background-size: cover;
+  width: 100px;
+  height: 70px;
+  transform: translate(-50%, -50%); 
+}
+#neptune {
+  background-image: url(img/neptune.png);
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  transform: translate(-50%, -50%);
+}
+#neowisetw {
+ background-image: url(img/comet.png); 
+ background-size: cover;
+ width: 52px;
+ height: 30px;
+ transform: translate(-50%, -50%);
+}
